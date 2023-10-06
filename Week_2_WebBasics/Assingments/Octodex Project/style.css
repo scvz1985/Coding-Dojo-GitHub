@@ -1,0 +1,49 @@
+.header {
+    font-size: 60px;
+    width: 0pc auto;
+    background-color: whitesmoke;
+    justify-content: center;
+    display: flex
+}
+
+.parent{
+    width: 850px;
+    background-color: whitesmoke;
+    margin: 15px auto;
+    padding: 15px;
+
+}
+img{
+    width: 200px;
+}
+.child1 {
+    height: 200px;
+    width: 800px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;    
+    margin: 10px;  
+}
+.child2 {
+    height: 200px;
+    width: 800px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;    
+    margin: 10px;  
+}
+.child3 {
+    height: 200px;
+    width: 800px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;    
+    margin: 10px;  
+}
+

@@ -1,0 +1,31 @@
+.flex {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #999;
+    font: 10px sans-serif;
+
+
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.flex > div {
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 50px;
+}
+
+.flex > div:nth-child(1) {
+    background: #0055A4;
+}
+
+.flex > div:nth-child(2) {
+    background: #F1F2F1;
+}
+
+.flex > div:nth-child(3) {
+    background: #EF4135;
+}
